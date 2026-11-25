@@ -1,0 +1,32 @@
+# Voice samples and large files
+voices/*.wav
+voices/*.mp3
+voices/*.flac
+!voices/.gitkeep
+
+# Models and caches
+models/
+*.gguf
+*.bin
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Node / SillyTavern
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+tmp/
+temp/
